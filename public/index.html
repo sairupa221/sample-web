@@ -1,43 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <head>
+        <title>Website Design</title>
+        <link rel ="stylesheet" href = "style.css">
+    </head>
+    <body>
+    <div class = "main">
+        <div class ="navbar">
+            
+                <h2 class = "logo">SaiRupa</h2>
+           
+            <div class ="menu">
+              <ul>
+                <li><a href ="#">Home</a></li>
+                <li><a href ="#">About</a></li>
+                <li><a href ="#">Service</a></li>
+                <li><a href ="#">Design</a></li>
+                <li><a href ="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="search">
+              <input class = "srch" type="search" name = "" placeholder="Type To text">
+              <a href = "#"><button class ="btn">Search</button></a>
+            </div>
+        </div>
+        <div class="content">
+          <h1>Web Design & <br><span>Development</span> <br>Course</h1>
+          <p class ="par">It can accurately recognize text within images and convert it into an editable text format upto images. <br>The process is both quick and precise, without the need for cumbersome manual transcription.
+          <br>Whether processing scanned document images,infographics on social media,it precisely extract text.</p>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+          <button class="cn"><a href ="#">Join US</a></button>
+          <div class ="form">
+            <h2>Login Here</h2>
+            <input type="email" name ="email" placeholder="Enter Email Here">
+            <input type ="password" name ="" placeholder="Enter Password Here">
+            <button class ="btnn"><a href="#">Login</a></button>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+            <p class="link">Don't have an account<br>
+            <a href ="#">Sign up </a>here</a></p>
+            <p class ="liw">Log in with</p>
+            <div class = "icons">
+              <a href = "#"><ion-icon name = "logo-Facebook"></ion-icon></a>
+              <a href = "#"><ion-icon name = "logo-Instagram"></ion-icon></a>
+              <a href = "#"><ion-icon name = "logo-Twitter"></ion-icon></a>
+              <a href = "#"><ion-icon name = "logo-Google"></ion-icon></a>
+              <a href = "#"><ion-icon name = "logo-skype"></ion-icon></a>
+            </div>
+          </div>
+        </div>
+    </div>
+    <script src = "https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    </body>
 </html>
